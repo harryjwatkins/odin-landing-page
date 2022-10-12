@@ -38,7 +38,13 @@ h2 {
 
 .container-one{
     flex: 1;
-    background-color: #1F2937
+    background-color: #1F2937;
+    padding: 0 200px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 .container-one p,
@@ -50,22 +56,38 @@ ul {
 
 .container-two{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0 200px;
 }
 
 .container-three{
-    flex: 1;
+    flex: 1.5;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 0 200px;
 }
 
 .container-three #quote {
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
+    text-align: center;
+}
+.container-three #author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30px;
 }
 
 .container-four{
     flex: 1;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 0 200px;
 }
 
 .container-one button,
