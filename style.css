@@ -87,14 +87,33 @@ ul {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0 200px;
     margin: 100px 400px;
     border-radius: 15px;
+    gap: 90px;
 }
 
 .container-one button,
+.container-four button,
 .container-four {
     background-color: #3882F6;
+}
+
+.container-four button {
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    border-width: 3px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
 }
 
 footer {
