@@ -8,6 +8,47 @@ footer  {
     background-color: #1F2937;
 }
 
+header {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: "Hero Main", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.container-one p,
+ul {
+    font-family: "Hero Secondary", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container-one button,
+.container-four {
+    background-color: #3882F6;
+}
+
 .container-three {
     background-color: #E5E7EB;
+}
+
+.container-three #quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.container-four,
+footer {
+    color: #F9FAF8;
 }
