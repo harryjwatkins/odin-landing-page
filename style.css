@@ -20,6 +20,7 @@ ul {
 
 header {
     color: #F9FAF8;
+    font-weight: bolder;
     font-size: 24px;
 }
 
@@ -28,6 +29,7 @@ h1 {
     font-weight: bolder;
     color: #F9FAF8;
     font-family: "Hero Main", Arial, Helvetica, sans-serif;
+    
 }
 
 h2 {
@@ -41,11 +43,31 @@ h2 {
     flex: 1;
     background-color: #1F2937;
     padding: 0 200px;
+    padding-bottom: 100px;
 }
 
 .wrapper{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin-top: 10px;
+    padding-top: 70px;
+}
+
+.title{
+    width: 500px;
+}
+
+.title p{
+    margin: 5px;
+}
+
+#placeholder {
+    border: 2px solid red;
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    margin-left: auto;
 }
 
 .container-one p,
